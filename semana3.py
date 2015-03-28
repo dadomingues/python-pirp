@@ -20,3 +20,14 @@ def WL(f,L,W):
     import numpy as np
     T = TWL(L,W)
     return T[f]
+
+# usando as funções em um outro script
+
+from tutorial_contraste_iterativo_2 import WL, TWL
+W = 30
+L = 15
+Tw = TWL(L,W)
+adshow(ia.iaplot(Tw,ylabel='Output intensity',xlabel='Input intensity'),'Transformada de intensidade W=%d L=%d' % (W,L)
+
+
+
